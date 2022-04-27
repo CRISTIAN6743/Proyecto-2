@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+body{
+    height: 950px;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to top, #5588e0 100%, #4481eb 100%);
+}
+.contenedor-registro{
+    height: 850px;
+    width: 960px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    border-radius: 20px;
+    
+}
+.contenedor-registro-principal{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    border: 2px;
+    padding-top: 8px;
+    background-color: #ffffff;
+}
+.contenedor-imagen{
+    width: 50%;
+    padding: 32px;
+    box-sizing: border-box;
+    object-fit: contain;
+    background-color: #bcd2f8;
+}
+h1.titulo{
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #5995fd;
+}
+.datos-regisro{
+    border: 1px;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+.datos, .boton{
+    width: 90%;
+    height: 50px;
+    font-size: 16px;
+    background-color: rgb(212, 211, 211);
+}
+
+.datos{
+    padding-left: 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    
+}
+.datos:hover{
+    border: 2px solid #5995fd;
+}
+
+p.relleno{
+    width: 85%; 
+}
+
+.boton{
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin: 30px 2px;  
+}
+
+.boton1 {
+    background-color:#5995fd; 
+    color: rgb(255, 255, 255); 
+}
+
+.boton1:hover {
+    background-color:#3567bd;
+    color: white;
+}
+
+.link-margen{
+    margin-top: 100px;
+    color: #5995fd;
+    font-weight: 600;
+    cursor: pointer;
+}
+.link{
+    color: #5995fd;
+    font-weight: 600;
+    cursor: pointer;  
+}
+.login{
+    letter-spacing: 1px;
+    font-weight: 570;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.link-login{
+    line-height: normal;
+    text-decoration: none;
+    color: #5995fd;
+    font-weight: 600;
+    cursor: pointer;
+    line-height: 10px;  
+}
+
+.inicio{
+    letter-spacing: 2px;
+    font-weight: 570;
+    margin-left: 280px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+.link-inicio{
+    line-height: normal;
+    text-decoration: none;
+    color: #5995fd;
+    font-weight: 600;
+    cursor: pointer;
+  
+}
+
