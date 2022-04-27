@@ -74,13 +74,22 @@ p.relleno{
     border-radius: 10px;
     letter-spacing: 1px;
     cursor: pointer;
-    margin: 30px 2px;  
+   
 }
 .boton1 {
     background-color:#5995fd; 
-    color: rgb(255, 255, 255); 
+    color: rgb(255, 255, 255);
+    margin: 30px 2px;   
 }
 .boton1:hover {
+    background-color:#3567bd;
+    color: white;
+}
+.boton2 {
+    background-color:#5995fd; 
+    color: rgb(255, 255, 255); 
+}
+.boton2:hover {
     background-color:#3567bd;
     color: white;
 }

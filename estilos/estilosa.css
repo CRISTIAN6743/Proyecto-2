@@ -5,14 +5,13 @@ body{
     background-image: linear-gradient(to top, #5588e0 100%, #4481eb 100%);
 }
 .contenedor-registro{
-    height: 800px;
-    width: 100%;
+    height: 600px;
+    width: 96%;
     margin: 50px auto;
     display: flex;
-    justify-content: flex-end ;
+    justify-content:flex-end ;
     overflow: hidden;
-    border-radius: 20px;
-    
+    border-radius: 20px;   
 }
 .contenedor-registro-principal{
     width: 50%;
@@ -21,119 +20,85 @@ body{
     align-items: left;
     text-align: left;
     border: 20px;
-    padding-top: 50px;
-    padding-left: 50px;
+    padding-top: 30px;
+    padding-left: 100px;
     background-color: #ffffff;
 }
 .contenedor-imagen{
     width: 50%;
-    padding: 32px;
+    padding: 25px;
     box-sizing: border-box;
     object-fit: contain;
     background-color: #bcd2f8;
 }
+
 .titulo{
     text-transform: capitalize;
     font-size: 36px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #203b6b;
+    color: #ffffff;
     text-align: center;
 }
-.datos-regisro{
-    border: 1px;
-    height: 55%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0;
-}
-
 .datos, .boton{
-    width: 50%;
+    width: 70%;
     height: 50px;
     font-size: 16px;
     background-color: rgb(255, 255, 255);
 }
-.datos, .boton{
-    width: 50%;
-    height: 50px;
-    font-size: 16px;
-    background-color: rgb(255, 255, 255);
-}
-.datos, .boton{
-    width: 50%;
-    height: 50px;
-    font-size: 16px;
-    background-color: rgb(255, 255, 255);
-}
-
 .datos{
     padding-left: 20px;
     border: none;
     border-radius: 5px;
     font-weight: 600;
     letter-spacing: 1px;
-    box-sizing: border-box;
-
-    
+    box-sizing: border-box;   
 }
 .datos:hover{
     border: 2px solid #5995fd;
 }
-p.relleno{
-    width: 85%; 
+.datos-registro{
+    font-size: 20px;
+    
+}
+.contenedor-botones{   
+    padding: 10px;
+    overflow: hidden;
+    
 }
 .boton{
-    font-size: 10px;
+    float: left;
+    font-size: 15px;
     width: 10%;
     border: none;
     border-radius: 10px;
     letter-spacing: 1px;
     cursor: pointer;
-    margin: 330px 820px;  
-}
-.boton1 {
-    background-color:#5995fd; 
-    color: rgb(255, 255, 255); 
 
 }
-.boton1:hover {
-    background-color:#3567bd;
+#boton1 {
+    background-color:#3462b3; 
+    color: rgb(255, 255, 255); 
+    margin: 0px 720px;
+
+}
+#boton1:hover {
+    background-color:#295196;
     color: white;
 }
-.link-margen{
-    margin-top: 100px;
-    color: #5995fd;
-    font-weight: 600;
-    cursor: pointer;
+#boton2 {
+    background-color:#3462b3; 
+    color: rgb(255, 255, 255);
 }
-.link{
-    color: #5995fd;
-    font-weight: 600;
-    cursor: pointer;  
-}
-.login{
-    letter-spacing: 1px;
-    font-weight: 570;
-    cursor: pointer;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    text-align: center;
-}
-.link-login{
-    line-height: normal;
-    text-decoration: none;
-    color: #5995fd;
-    font-weight: 600;
-    cursor: pointer;
-    line-height: 10px;  
+#boton2:hover {
+    background-color:#295196;
+    color: white;
 }
 .inicio{
     letter-spacing: 2px;
     font-weight: 570;
-    margin-left: 280px;
+    margin: 25px;
+
     cursor: pointer;
     text-decoration: none;
     color: #fff;
@@ -144,5 +109,5 @@ p.relleno{
     color: #5995fd;
     font-weight: 600;
     cursor: pointer;
-  
 }
+
