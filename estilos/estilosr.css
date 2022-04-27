@@ -53,7 +53,6 @@ h1.titulo{
     font-size: 16px;
     background-color: rgb(212, 211, 211);
 }
-
 .datos{
     padding-left: 20px;
     border: none;
@@ -66,11 +65,9 @@ h1.titulo{
 .datos:hover{
     border: 2px solid #5995fd;
 }
-
 p.relleno{
     width: 85%; 
 }
-
 .boton{
     width: 80%;
     border: none;
@@ -79,17 +76,14 @@ p.relleno{
     cursor: pointer;
     margin: 30px 2px;  
 }
-
 .boton1 {
     background-color:#5995fd; 
     color: rgb(255, 255, 255); 
 }
-
 .boton1:hover {
     background-color:#3567bd;
     color: white;
 }
-
 .link-margen{
     margin-top: 100px;
     color: #5995fd;
@@ -117,7 +111,6 @@ p.relleno{
     cursor: pointer;
     line-height: 10px;  
 }
-
 .inicio{
     letter-spacing: 2px;
     font-weight: 570;
