@@ -22,12 +22,20 @@
     </style>
 </head>
 <body>
-
+    
+<div class="contenedor-baner">
+    <h1 class="titulo">UPIIWEB</h1>
     <h1 class="titulo">Añadir Producto</h1>
+    <div class="contenedor-baner-img">
+        <div><a href="tienda.html"><img  src="img/casa.png" width="50" height="50" alt="inicio"></a></div>
+        <div><a href="carro.html"><img src="img/carrito.png" width="50" height="50" alt="carrito"></a></div>
+    </div>
+</div>
+
     <div class="contenedor-registro">
         <div class="contenedor-registro-principal">
             <form class="datos-registro">
-                    <p>Nombre del producto <input class="datos" type="text" placeholder="Audífonos Bluetooth Inalámbricos Sony WH-CH510"></p>               
+                    <p>Nombre del producto</p><input class="datos" type="text" placeholder="Audífonos Bluetooth Inalámbricos Sony WH-CH510"></p>               
                     <p>Descripción del producto</p><textarea name="descripcion" class="datos" placeholder="Coloque una breve descipción de su producto">Audífonos Bluetooth Inalámbricos</textarea></p>
                     <p>Precio de venta <input class="datos" type="text" placeholder="$1,060.00"></p><br>
                     <p>Información del producto</p>
@@ -36,15 +44,20 @@
 -La batería dura 35 h.                     
 -Modo manos libres incluido.
                     </textarea></p>
+                    <button class="boton" id="boton1">Añadir Producto</button>
             </form>
         </div>
-        <img class="contenedor-imagen"  src="img/audifonos.png" alt="añadirproducto">
-        
+        <div class="contenedor-imagen">
+            <div class="contenedor-imagen-principal">
+            <img src="img/audifonos.png" width="236" height="300" alt="añadirproducto">
+            </div>
+            <button class="boton" id="boton2">Añadir Imagen</button> 
+
+        </div>
     </div>
     <div class="contenedor-botones">
-        <button class="boton" id="boton1">Añadir Producto</button> 
-        <button class="boton" id="boton2">Añadir Imagen</button> 
+ 
+   
     </div>
-    <a class="inicio" href="../tienda.html">Volver al inicio</a></span>
 </body>
 </html>

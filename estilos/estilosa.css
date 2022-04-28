@@ -2,43 +2,74 @@
 body{
     height: 950px;
     font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(to top, #5588e0 100%, #4481eb 100%);
+    background-image: linear-gradient(to top, rgb(255, 255, 255), 69%, 61%) 100%, #ffffff 100%);
 }
+.contenedor-baner{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.contenedor-baner-img{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 20%;
+}
+
 .contenedor-registro{
-    height: 600px;
-    width: 96%;
+    height: 650px;
+    width: 90%;
     margin: 50px auto;
     display: flex;
     justify-content:flex-end ;
     overflow: hidden;
-    border-radius: 20px;   
+   
 }
 .contenedor-registro-principal{
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: left;
     text-align: left;
     border: 20px;
     padding-top: 30px;
-    padding-left: 100px;
+    padding-left: 10px;
     background-color: #ffffff;
 }
 .contenedor-imagen{
-    width: 50%;
-    padding: 25px;
+    width: 20%;
+    padding: 30px;
     box-sizing: border-box;
     object-fit: contain;
     background-color: #bcd2f8;
 }
-
+.contenedor-imagen-principal{
+    background-color: #ffffff;
+    width: 84%;
+    padding: 25px;
+    align-items: center;
+}
 .titulo{
     text-transform: capitalize;
     font-size: 36px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #ffffff;
+    color: #5995fd;
     text-align: center;
+    width: 25%;
+}
+.titulo-baner{
+    float:right;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #5995fd;
+    text-align:center;
+    width: 50%;
+    height: 10px;
 }
 .datos, .boton{
     width: 70%;
@@ -67,31 +98,31 @@ body{
     
 }
 .boton{
-    float: left;
     font-size: 15px;
     width: 10%;
     border: none;
     border-radius: 10px;
     letter-spacing: 1px;
     cursor: pointer;
-
 }
 #boton1 {
-    background-color:#3462b3; 
+    background-color:#bcd2f8; 
     color: rgb(255, 255, 255); 
-    margin: 0px 720px;
-
+    margin: 0px 550px;
+    width: 30%;
 }
 #boton1:hover {
-    background-color:#295196;
+    background-color:#8999b4;
     color: white;
 }
 #boton2 {
-    background-color:#3462b3; 
+    width: 70%;
+    background-color:#5995fd; 
     color: rgb(255, 255, 255);
+    margin: 120px 45px;
 }
 #boton2:hover {
-    background-color:#295196;
+    background-color:#4370bd;
     color: white;
 }
 .inicio{
@@ -101,7 +132,7 @@ body{
 
     cursor: pointer;
     text-decoration: none;
-    color: #fff;
+    color:#5995fd;
 }
 .link-inicio{
     line-height: normal;
